@@ -1,0 +1,153 @@
+Hit:1 http://ua.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://ua.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://ua.archive.ubuntu.com/ubuntu noble-backports InRelease
+Get:4 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:5 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.6 kB]
+Get:6 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [208 B]
+Get:7 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.3 kB]
+Get:8 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
+Fetched 200 kB in 1s (146 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following upgrades have been deferred due to phasing:
+  dpkg
+The following packages have been kept back:
+  libegl-mesa0 libgbm1 libgl1-mesa-dri libglx-mesa0 libxatracker2
+  mesa-libgallium mesa-vulkan-drivers
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+neovim is already the newest version (0.9.5-6ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+/home/viktors/LAB_Navigation_sys/test_project/venv/bin/pip
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+git is already the newest version (1:2.43.0-1ubuntu7.3).
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+git version 2.43.0
+user.name=ViktorSEREK
+user.email=viktor.serediuk@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=git@github.com:ViktorSEREK/LAB_Navigation_sys.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/viktors/.ssh/id_ed25519): Your identification has been saved in :q
+Your public key has been saved in :q.pub
+The key fingerprint is:
+SHA256:4I0MpT37JMF0JxPU4eGBS1IZ+QnxhTYxsyFF2mnv720 viktor.serediuk@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|      oo@@%+.    |
+|     *..*@=X     |
+|    o *o.=Oo     |
+|     + B..o.     |
+|      * S   .    |
+|       +   .     |
+|        .   .    |
+|             . .E|
+|             .o..|
++----[SHA256]-----+
+SSH_AUTH_SOCK=/tmp/ssh-OTbhYteAi5Py/agent.12525; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=12526; export SSH_AGENT_PID;
+echo Agent pid 12526;
+Identity added: /home/viktors/.ssh/id_ed25519 (viktor.serediuk@gmail.com)
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN58zy85ckFwZoIh863CWaPU1wN3Nv5geTdV7gljDNqk viktor.serediuk@gmail.com
+fatal: repository 'git@github.com/ViktorSEREK/LAB_Navigation_sys.git' does not exist
+./task3.sh: line 28: cd: LAB_Navigation_sys/: No such file or directory
+Collecting numpy
+  Using cached numpy-2.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting scipy
+  Using cached scipy-1.16.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (62 kB)
+Collecting pandas
+  Using cached pandas-2.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (91 kB)
+Collecting matplotlib
+  Using cached matplotlib-3.10.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (11 kB)
+Collecting pymavlink
+  Using cached pymavlink-2.4.49-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (6.0 kB)
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas)
+  Using cached pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas)
+  Using cached tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting contourpy>=1.0.1 (from matplotlib)
+  Using cached contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib)
+  Using cached fonttools-4.60.0-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl.metadata (111 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib)
+  Using cached kiwisolver-1.4.9-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.3 kB)
+Collecting packaging>=20.0 (from matplotlib)
+  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting pillow>=8 (from matplotlib)
+  Using cached pillow-11.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib)
+  Using cached pyparsing-3.2.4-py3-none-any.whl.metadata (5.0 kB)
+Collecting lxml (from pymavlink)
+  Using cached lxml-6.0.1-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+Collecting fastcrc (from pymavlink)
+  Using cached fastcrc-0.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.6 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Using cached numpy-2.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+Using cached scipy-1.16.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (35.7 MB)
+Using cached pandas-2.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.0 MB)
+Using cached matplotlib-3.10.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.7 MB)
+Using cached pymavlink-2.4.49-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (6.4 MB)
+Using cached contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (362 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Using cached fonttools-4.60.0-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl (4.9 MB)
+Using cached kiwisolver-1.4.9-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.5 MB)
+Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Using cached pillow-11.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.6 MB)
+Using cached pyparsing-3.2.4-py3-none-any.whl (113 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Using cached fastcrc-0.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (275 kB)
+Using cached lxml-6.0.1-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.3 MB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, tzdata, six, pyparsing, pillow, packaging, numpy, lxml, kiwisolver, fonttools, fastcrc, cycler, scipy, python-dateutil, pymavlink, contourpy, pandas, matplotlib
+Successfully installed contourpy-1.3.3 cycler-0.12.1 fastcrc-0.3.2 fonttools-4.60.0 kiwisolver-1.4.9 lxml-6.0.1 matplotlib-3.10.6 numpy-2.3.3 packaging-25.0 pandas-2.3.2 pillow-11.3.0 pymavlink-2.4.49 pyparsing-3.2.4 python-dateutil-2.9.0.post0 pytz-2025.2 scipy-1.16.2 six-1.17.0 tzdata-2025.2
+[main 5c69623] added requirements
+ 1 file changed, 18 insertions(+)
+ create mode 100644 test_project/requirements.txt
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+neofetch is already the newest version (7.1.0-4).
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/viktors/LAB_Navigation_sys/test_project/.git/
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'Add neofetch output' did not match any file(s) known to git
